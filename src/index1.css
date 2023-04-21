@@ -3,7 +3,7 @@
 }
 
 .todo-list {
-  width: 65%;
+  width: 50%;
 }
 
 .segment.buttons {
@@ -47,4 +47,8 @@ label {
 
 ul {
   list-style-type: none;
+}
+
+.footer {
+  width: 50%;
 }
