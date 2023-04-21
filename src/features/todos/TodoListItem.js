@@ -42,6 +42,7 @@ const TodoListItem = ({ id }) => {
     <li>
       <div className="view">
         <div className="segment label">
+          <label htmlFor="">isDone</label>
           <input
             className="toggle"
             type="checkbox"
@@ -57,7 +58,7 @@ const TodoListItem = ({ id }) => {
             style={{ color }}
             onChange={handleColorChanged}
           >
-            <option value=""></option>
+            <option value="">Select a color</option>
             {colorOptions}
           </select>
           <button className="destroy" onClick={onDelete}>

@@ -1,0 +1,50 @@
+.todo-list li select.colorPicker {
+  width: 150px;
+}
+
+.todo-list {
+  width: 65%;
+}
+
+.segment.buttons {
+  display: flex;
+  align-items: flex-start;
+}
+
+.segment.label {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.view {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.todo-text {
+  display: flex;
+  align-self: center;
+}
+
+label {
+  max-width: 100%;
+  display: block;
+  margin: 0.5rem 0 0.5rem;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  list-style-type: none;
+}
